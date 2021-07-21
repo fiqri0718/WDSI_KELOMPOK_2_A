@@ -106,7 +106,7 @@ public class Laporan_transaksi extends javax.swing.JFrame {
                 String kode = rslt.getString("kode_minuman");
                 String nama = rslt.getString("nama_minuman");
                 String harga = rslt.getString("harga");
-                String jumlah = rslt.getString("jumlah_minuman");
+                String jumlah = rslt.getString("jumlah_barang");
                 String total = rslt.getString("total_harga");
 
                 //masukan semua data kedalam array
